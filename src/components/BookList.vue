@@ -15,11 +15,8 @@
     }
 </script>
 
-<style lang="scss" scoped>
-h1{
-    font-weight: normal;
-}
-h2{
-    font-weight: normal;
+<style scoped>
+h1, h2 {
+  font-weight: normal;
 }
 </style>
