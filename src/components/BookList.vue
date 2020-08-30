@@ -2,14 +2,8 @@
     <div>
         <h1>{{ title }}</h1>
         <ul>
-<<<<<<< HEAD
           <li v-for="book in books" :key="book.title">{{ book.title }}:{{ book.author}}</li>
         </ul>
-=======
-            <li></li>
-            <li></li>
-            <li></li>
->>>>>>> e911da382a6623cda188aa5033332166b4d31650
     </div>
 </template>
 
@@ -17,7 +11,6 @@
     export default {
         name: 'BookList',
         data() {
-<<<<<<< HEAD
             return
             {
                 books: [
@@ -34,11 +27,6 @@
                     authlor: 'Neil Postman',
                   },
                 ]
-=======
-            return {
-                title: 'All Books'
-                
->>>>>>> e911da382a6623cda188aa5033332166b4d31650
             }
         },
     }
