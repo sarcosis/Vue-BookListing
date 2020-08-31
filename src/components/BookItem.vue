@@ -10,7 +10,7 @@
     export default {
         name: 'BookItem',
         props: ['book'],
-    }
+    };
 </script>
 
 <style lang="scss" scoped>
