@@ -10,10 +10,10 @@
     export default {
         name: 'BookItem',
         props: {
-            book: {
+            book: [{
                 type: String,
                 default: '',
-            },
+            }],
         },
     }
 </script>
