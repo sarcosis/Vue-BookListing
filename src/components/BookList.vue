@@ -31,7 +31,7 @@ import BookForm from './BookForm';
     },
     methods: {
       appendBook(bookTitle, bookAuthor) {
-        this.books.push({ title: bookAuthor, author: bookAuthor})
+        this.books.push({ title: bookTitle, author: bookAuthor})
       }
     },
   }
